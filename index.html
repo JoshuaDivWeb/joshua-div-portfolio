@@ -2,57 +2,86 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Business Landing Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joshua | Web Developer</title>
+
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-
   <header>
-    <img class="chat" src="ChatGPT-2.png">
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
-    </nav>
+    <h1>Joshua Arinze</h1>
+    <p>Beginner Web Developer | HTML & CSS Specialist</p>
+    <a class="btn" href="#contact">Hire Me</a>
   </header>
 
-  <section class="hero">
-    <h2>We Build Modern Websites</h2>
-    <p>Clean, responsive and professional websites for your business.</p>
-    <button onclick="showMessage()">Get Started</button>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  </section>
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a beginner web developer focused on building clean, responsive, and
+        user-friendly websites using HTML and CSS. I help small businesses,
+        churches, and individuals establish a strong online presence.
+      </p>
+    </section>
 
-  <section class="about">
-    <h2>About Us</h2>
-    <p>We help small businesses create strong online presence.</p>
-  </section>
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Business Landing Page</h3>
+          <p>
+            A modern landing page designed to help businesses promote their
+            services and attract customers.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Church Website</h3>
+          <p>
+            A clean church website layout including service times, vision, and
+            contact information.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Personal Portfolio</h3>
+          <p>
+            A responsive portfolio website showcasing skills, projects, and
+            contact details.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <section class="services">
-    <h2>Our Services</h2>
-    <div class="service-box">Website Design</div>
-    <div class="service-box">Landing Pages</div>
-    <div class="service-box">Responsive Design</div>
-  </section>
+    <section id="services" class="card">
+      <h2>Services</h2>
+      <ul>
+        <li>HTML & CSS Website Design</li>
+        <li>Business Landing Pages</li>
+        <li>Church & Ministry Websites</li>
+        <li>Responsive Design</li>
+        <li>Fixing HTML & CSS Issues</li>
+      </ul>
+    </section>
 
-  <section class="contact">
-    <h2>Contact Us</h2>
-    <p>Email: info@joshtech.com</p>
-  </section>
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: codebyarrow@gmail.com</p>
+      <p>Number / whatsapp: 07033892306</p>
+      <a class="btn" href="mailto:yourname@email.com">Send Message</a>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2026 JoshTech. All rights reserved.</p>
+    <p>© 2026 Joshua Arinze. All rights reserved.</p>
   </footer>
-
-  <script>
-    function showMessage() {
-      alert("Thank you for choosing JoshTech!");
-    }
-  </script>
-
 </body>
 
 </html>
