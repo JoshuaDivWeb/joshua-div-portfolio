@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #8a8a1e, #dfeb2e)
+}
+
+.chat {
+  height: 150px;
+}
+
+nav {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #c9d91f;
+  text-decoration: underline;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+button {
+  background-color: #dfeb2e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about {
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.service-box {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact,
+footer {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+}
